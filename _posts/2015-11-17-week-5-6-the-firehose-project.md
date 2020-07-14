@@ -21,11 +21,6 @@ meta:
   _wpas_done_all: '1'
   classic-editor-remember: classic-editor
 author:
-  login: acodingtaco
-  email: gaby@acodingtaco.com
-  display_name: acodingtaco
-  first_name: ''
-  last_name: ''
 permalink: "/2015/11/17/week-5-6-the-firehose-project/"
 ---
 Week 5 & 6 have been the most challenging so far, the biggest challenges being Test Driven Development and coding challenges #3 and #4. I have been literally pulling out my hair & will be bald at the end of this program. LOL

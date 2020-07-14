@@ -21,11 +21,6 @@ meta:
   _wpas_done_all: '1'
   classic-editor-remember: block-editor
 author:
-  login: acodingtaco
-  email: gaby@acodingtaco.com
-  display_name: acodingtaco
-  first_name: ''
-  last_name: ''
 permalink: "/2016/06/03/how-to-make-your-rails-app-render-a-different-home-page-when-user-is-not-signed-in/"
 ---
 This is a problem I encountered when working on [TravelThots](http://travelthots.herokuapp.com), my current passion project. Just as background, the main model of my app is "place", and users can share places they've traveled to. I describe it as a travel version of Instagram; Instead of square photos, you get a feed of square Google maps.
@@ -52,7 +47,7 @@ You're going to see that your previous CSS is not applied to this new index page
 
 This is because we want to create brand new style just for this landing page. If you didn't add this stylesheet code, you'd be left with caveman style on your app, like this:
 
-[![caveman CSS]({{ site.baseurl }}/assets/images/Screen-Shot-2016-06-03-at-3.46.20-PM-1024x606.png)](http://acodingtaco.com/wp-content/uploads/2016/06/Screen-Shot-2016-06-03-at-3.46.20-PM.png)
+![caveman CSS]({{ site.baseurl }}/assets/images/Screen-Shot-2016-06-03-at-3.46.20-PM-1024x606.png)
 
 In config/initializers/assets.rb, you have to add this line of code in order for you to&nbsp;precompile the pages stylesheet:
 
@@ -62,7 +57,7 @@ Rails.application.config.assets.precompile += %w( pages.css )
 
 In Rails, only application.css.scss is precompiled by default so when you add a different stylesheet\_link\_tag in your HTML page, you must add this line of code to assets.rb or your new stylesheet will raise this "asset filter" error:
 
-[![asset filter error]({{ site.baseurl }}/assets/images/Screen-Shot-2016-06-03-at-3.48.39-PM-1024x287.png)](http://acodingtaco.com/wp-content/uploads/2016/06/Screen-Shot-2016-06-03-at-3.48.39-PM.png)
+![asset filter error]({{ site.baseurl }}/assets/images/Screen-Shot-2016-06-03-at-3.48.39-PM-1024x287.png)
 
 One last thing which only applies if you are using Bootstrap on your app. You must include Bootstrap in your new stylesheet:
 
@@ -75,8 +70,4 @@ Because you are not using your master stylesheet for this homepage, the Bootstra
 If you followed along, you should be left with a nice landing page for people that are aren't signed in or signed up yet.
 
 Good luck!
-
-<!-- wp:paragraph -->
-
-<!-- /wp:paragraph -->
 

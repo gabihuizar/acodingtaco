@@ -14,11 +14,6 @@ meta:
   _edit_last: '1'
   _wpas_done_all: '1'
 author:
-  login: acodingtaco
-  email: gaby@acodingtaco.com
-  display_name: acodingtaco
-  first_name: ''
-  last_name: ''
 permalink: "/2016/05/25/most-terrible-blogger-awards-goes-to-me/"
 ---
 I have failed this blog. Not only did I stop writing about the Firehose Project, I stopped writing completely. Well I am making a comeback. Bear with me.

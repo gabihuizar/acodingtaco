@@ -20,11 +20,7 @@ meta:
   _edit_last: '1'
   _thumbnail_id: '3'
 author:
-  login: acodingtaco
-  email: gaby@acodingtaco.com
-  display_name: acodingtaco
-  first_name: ''
-  last_name: ''
+  # display_name: gaby
 permalink: "/2015/11/03/1st-month-firehose-project/"
 ---
 My first month&nbsp;at the Firehose Project has been full&nbsp;of new concepts for me. I started on October 5th. That week&nbsp;I built "Splurty", a web application that spits out travel inspiration quotes or tips with the ability for a user to enter their own advice or favorite travel quotes. The most important take aways from my first week were:
@@ -43,7 +39,7 @@ I finished "BURP!"/Nomster in two weeks. I now have a better understanding of ho
 
 Last&nbsp;week was my fourth week of the program. After finishing the OOP videos on inheritance (Dogs \< Animals), I started on the first code challenge, "Image Blur #1" - an image representation using multi-dimensional arrays:
 
-[![2015-11-02 05.47.29 pm]({{ site.baseurl }}/assets/images/2015-11-02-05.47.29-pm.png)](http://acodingtaco.com/wp-content/uploads/2015/11/2015-11-02-05.47.29-pm.png)
+![2015-11-02 05.47.29 pm]({{ site.baseurl }}/assets/images/2015-11-02-05.47.29-pm.png)
 
 I was able to figure it out in a day & then I started working on the second challenge. I read all the Ruby Monk lessons and then went ahead and went through the challenges, which were very challenging for me I'm not going to lie. I also started on Code Wars which helped boost my ego after going through Ruby Monk. Before this program I had practiced JavaScript algorithms so I think what is challenging is getting huge blocks of code into sometimes one line as it is usual for Ruby. Next on the curriculum is Test Driven Development - developing by writing tests first.
 

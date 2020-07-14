@@ -15,11 +15,6 @@ tags:
 meta:
   _edit_last: '1'
 author:
-  login: acodingtaco
-  email: gaby@acodingtaco.com
-  display_name: acodingtaco
-  first_name: ''
-  last_name: ''
 permalink: "/2015/10/15/introductions/"
 ---
 Hello! I'm Gaby. This blog is all about my "learn to code" journey that started about a year ago. I graduated college in May 2014 not knowing what I really wanted to do (like most of my peers) and got a job as an Assistant Media Buyer at an L.A.-based ad agency. I knew right away that media was not the path I wanted for myself so I started Codecademy after my boyfriend suggested I try something called "coding".
